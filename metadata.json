@@ -1,0 +1,11 @@
+{
+  "name": "KPPM Desa Kertasari",
+  "description": "Website resmi kelompok KPPM Desa Kertasari untuk publikasi agenda, program kerja, dan dokumentasi kegiatan pengabdian.",
+  "requestFramePermissions": [
+    "notifications",
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

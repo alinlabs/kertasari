@@ -1,0 +1,21 @@
+{
+  "name": "KPPM Desa Kertasari",
+  "short_name": "KPPM Kertasari",
+  "description": "Website resmi kelompok KPPM Desa Kertasari untuk publikasi agenda, program kerja, dan dokumentasi kegiatan pengabdian.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/gambar/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/gambar/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

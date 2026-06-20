@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-white: var(--theme-white);
+
+  --color-slate-50: var(--theme-slate-50);
+  --color-slate-100: var(--theme-slate-100);
+  --color-slate-200: var(--theme-slate-200);
+  --color-slate-300: var(--theme-slate-300);
+  --color-slate-400: var(--theme-slate-400);
+  --color-slate-500: var(--theme-slate-500);
+  --color-slate-600: var(--theme-slate-600);
+  --color-slate-700: var(--theme-slate-700);
+  --color-slate-800: var(--theme-slate-800);
+  --color-slate-900: var(--theme-slate-900);
+  --color-slate-950: var(--theme-slate-950);
+
+  --color-brand-50: var(--theme-brand-50);
+  --color-brand-100: var(--theme-brand-100);
+  --color-brand-500: var(--theme-brand-500);
+  --color-brand-600: var(--theme-brand-600);
+  --color-brand-700: var(--theme-brand-700);
+  --color-brand-900: var(--theme-brand-900);
+
+  --color-emerald-50: var(--theme-emerald-50);
+  --color-emerald-100: var(--theme-emerald-100);
+  --color-emerald-200: var(--theme-emerald-200);
+  --color-emerald-500: var(--theme-emerald-500);
+  --color-emerald-600: var(--theme-emerald-600);
+  --color-emerald-700: var(--theme-emerald-700);
+
+  --color-green-50: var(--theme-emerald-50);
+  --color-green-100: var(--theme-emerald-100);
+  --color-green-200: var(--theme-emerald-200);
+  --color-green-500: var(--theme-emerald-500);
+  --color-green-600: var(--theme-emerald-600);
+  --color-green-700: var(--theme-emerald-700);
+
+  --color-rose-50: var(--theme-rose-50);
+  --color-rose-100: var(--theme-rose-100);
+  --color-rose-200: var(--theme-rose-200);
+  --color-rose-500: var(--theme-rose-500);
+  --color-rose-600: var(--theme-rose-600);
+  --color-rose-700: var(--theme-rose-700);
+
+  --color-red-50: var(--theme-rose-50);
+  --color-red-100: var(--theme-rose-100);
+  --color-red-200: var(--theme-rose-200);
+  --color-red-500: var(--theme-rose-500);
+  --color-red-600: var(--theme-rose-600);
+  --color-red-700: var(--theme-rose-700);
+
+  --color-blue-50: var(--theme-blue-50);
+  --color-blue-100: var(--theme-blue-100);
+  --color-blue-500: var(--theme-blue-500);
+  --color-blue-600: var(--theme-blue-600);
+
+  --color-amber-50: var(--theme-amber-50);
+  --color-amber-100: var(--theme-amber-100);
+  --color-amber-500: var(--theme-amber-500);
+  --color-amber-600: var(--theme-amber-600);
+}
+
+:root {
+  --theme-white: #ffffff;
+
+  --theme-slate-50: #f8fafc;
+  --theme-slate-100: #f1f5f9;
+  --theme-slate-200: #e2e8f0;
+  --theme-slate-300: #cbd5e1;
+  --theme-slate-400: #94a3b8;
+  --theme-slate-500: #64748b;
+  --theme-slate-600: #475569;
+  --theme-slate-700: #334155;
+  --theme-slate-800: #1e293b;
+  --theme-slate-900: #0f172a;
+  --theme-slate-950: #020617;
+
+  --theme-brand-50: #f0fdf4;
+  --theme-brand-100: #dcfce7;
+  --theme-brand-500: #16a34a;
+  --theme-brand-600: #15803d;
+  --theme-brand-700: #166534;
+  --theme-brand-900: #14532d;
+
+  --theme-emerald-50: #ecfdf5;
+  --theme-emerald-100: #d1fae5;
+  --theme-emerald-200: #a7f3d0;
+  --theme-emerald-500: #10b981;
+  --theme-emerald-600: #059669;
+  --theme-emerald-700: #047857;
+
+  --theme-rose-50: #fff1f2;
+  --theme-rose-100: #ffe4e6;
+  --theme-rose-200: #fecdd3;
+  --theme-rose-500: #f43f5e;
+  --theme-rose-600: #e11d48;
+  --theme-rose-700: #be123c;
+
+  --theme-blue-50: #eff6ff;
+  --theme-blue-100: #dbeafe;
+  --theme-blue-500: #3b82f6;
+  --theme-blue-600: #2563eb;
+
+  --theme-amber-50: #fffbeb;
+  --theme-amber-100: #fef3c7;
+  --theme-amber-500: #f59e0b;
+  --theme-amber-600: #d97706;
+}
+
+.dark {
+  /* Dark mode with an elegant green-slate vibe (dark x green) */
+  --theme-white: #0a0f0c; /* Elevated card background */
+
+  --theme-slate-50: #040605; /* Deepest background for body */
+  --theme-slate-100: #080c0a;
+  --theme-slate-200: #101612;
+  --theme-slate-300: #18231c;
+  --theme-slate-400: #26382c;
+  --theme-slate-500: #3b5443;
+  --theme-slate-600: #5b8067;
+  --theme-slate-700: #8aab96;
+  --theme-slate-800: #c0d3c7;
+  --theme-slate-900: #eaf0ed;
+  --theme-slate-950: #ffffff;
+
+  --theme-brand-50: #0d2615;
+  --theme-brand-100: #11381d;
+  --theme-brand-500: #22c55e;
+  --theme-brand-600: #4ade80;
+  --theme-brand-700: #86efac;
+  --theme-brand-900: #bbf7d0;
+
+  --theme-emerald-50: #092819;
+  --theme-emerald-100: #0b3d24;
+  --theme-emerald-200: #0f5833;
+  --theme-emerald-500: #34d399;
+  --theme-emerald-600: #6ee7b7;
+  --theme-emerald-700: #a7f3d0;
+
+  --theme-rose-50: #2c0b12;
+  --theme-rose-100: #430c17;
+  --theme-rose-200: #610d1e;
+  --theme-rose-500: #fb7185;
+  --theme-rose-600: #fda4af;
+  --theme-rose-700: #fecdd3;
+
+  --theme-blue-50: #0c1c38;
+  --theme-blue-100: #112953;
+  --theme-blue-500: #60a5fa;
+  --theme-blue-600: #93c5fd;
+
+  --theme-amber-50: #331e0b;
+  --theme-amber-100: #4a2c0f;
+  --theme-amber-500: #fbbf24;
+  --theme-amber-600: #fcd34d;
+}
+
+body {
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-900);
+}
+
+/* Custom Scrollbar - Sangat Tipis, Transparan, Berwarna Putih Semu & Elegan */
+::-webkit-scrollbar {
+  width: 3px; /* Sangat tipis */
+  height: 3px; /* Sangat tipis */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.45); /* Putih tipis transparan */
+  border-radius: 99px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.55
+  ); /* Tetap tipis, lembut, dan elegan saat interaksi */
+}
+
+/* Dukungan Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.45) transparent;
+}
+
+/* Hilangkan garis tepi outline hitam saat mengklik atau fokus pada Chart/Grafik Recharts */
+.recharts-wrapper,
+.recharts-wrapper *:focus,
+.recharts-surface:focus,
+.recharts-surface *:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+/* Prevent auto-zoom on iOS/Android by ensuring form elements are 16px */
+@media screen and (max-width: 768px) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}

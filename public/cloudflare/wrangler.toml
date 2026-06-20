@@ -1,0 +1,8 @@
+name = "kppm-kertasari"
+main = "worker.js"
+compatibility_date = "2024-03-20"
+
+[[d1_databases]]
+binding = "db_kppm"
+database_name = "db_kppm"
+database_id = "566234a0-044e-40fa-973f-d677c496d731"
